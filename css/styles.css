@@ -1,0 +1,100 @@
+header {
+    color: #f1ff31;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    font-family: "Noirden" , sans-serif;
+}
+
+main {
+    background-color: rgba(206, 206, 206, 0.788);
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    float: left;
+    align-items: center;
+    transform: translateX(20%) translateY(10%);
+    border: thick;
+    font-family: "Montserrat" , sans-serif;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    float: right;   
+    transform: translateX(-20%);
+    font-family: "Montserrat" , sans-serif;
+}
+
+body {
+    color: rgb(5, 5, 5);
+    margin: 0;
+    background-color: #686868;
+    /* background-image: url(../images/background_image.PNG); 
+    background-size: cover; */
+    
+}
+
+.body-text{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+
+nav {
+    color: rgb(238, 255, 82);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    background-color: #da1a1a;
+    font-family: "Montserrat" , sans-serif;
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+
+.nav-links {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 24px 24px;
+}
+
+/*Color of link when mouse is hovering over*/
+.nav-links li a:hover:not(.active) {
+    background-color: rgb(255, 172, 47);
+}
+
+/*Color of link when user is in that page*/
+.nav-links li a.active {
+    background-color: yellow;
+}
+
+*{
+    margin: 0px;
+    padding: 10px 4px;
+    box-sizing: border-box;
+}
+
+
+

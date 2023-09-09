@@ -1,0 +1,29 @@
+<!--CSS file: -->
+
+
+
+
+.navlinks
+    {
+        <nav>
+        <!-- Navigation links -->
+        <table border="1px" width="100%">
+            <tr>
+                <th><a href="#home">Home</a></th>
+                <th><a href="#training_schedule">Training Schedule</a></th>
+                <th><a href="#upcoming_races">Upcoming Races</a></th>
+                <th><a href="#past_races">Past Races</a></th>
+                <th><a href="#become_a_member">Become A Member</a></a></th>
+                <th><a href="#junion_division">Junior Divison</a></th>
+                <th><a href="#contact_us">Contact Us</a></th>
+            </tr>
+        </nav>
+
+    }
+
+
+    <!-- Insert link to CSS file --> 
+    <link rel="navlinks" type="navlinks/css" href="navlink.css">
+
+
+

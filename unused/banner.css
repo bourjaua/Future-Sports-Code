@@ -1,0 +1,12 @@
+<!--CSS file: -->
+
+.banner
+
+#banner
+    {
+        <h1 style="color:rgb(19, 212, 247);text-align:center; font-size: 40px;">Cycling Website Name</h1>
+    }
+
+
+    <!-- Insert link to CSS file --> 
+    <link rel="banner" type="banner/css" href="banner.css">
