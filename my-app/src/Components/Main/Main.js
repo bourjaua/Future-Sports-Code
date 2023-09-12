@@ -8,6 +8,10 @@ import UpcomingRaces from "./UpcomingRaces";
 import TrainingSchedule from "./TrainingSchedule";
 import ContactUs from "./ContactUs";
 import Home from "./Home";
+import CommunityBlog from "./CommunityBlog";
+
+
+
 
 const Main = () => {
 // Added blogText have a blog to display, you could use a JSON of blogs if you like
@@ -18,6 +22,7 @@ const Main = () => {
 
         <ul>
             <li><Home /></li>
+            <li><CommunityBlog/></li>
             <li><TrainingSchedule/></li>
             <li><UpcomingRaces /></li>
             <li><PastRaces /></li>

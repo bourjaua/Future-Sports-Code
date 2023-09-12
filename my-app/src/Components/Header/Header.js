@@ -1,13 +1,19 @@
 // Header.js
 
 import React from "react";
+import HeaderHeading from "./HeaderHeading";
+
+
+
 
 const Header = () => {
     return (
-        <div className="HeaderSection">
-            <h1>Cycling Club</h1>
-        </div>
+        <HeaderHeading headingText="Cycling Club" />
+
+        
     );
+   
 };
+
 
 export default Header;
