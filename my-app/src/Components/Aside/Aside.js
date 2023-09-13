@@ -6,8 +6,10 @@ import PhotoGallery from "./PhotoGallery.js";
 const Aside = () => {
     return (
         <div className="AsideSection">
+            <div class="aside">
             <h2>Photo Gallery Text here</h2>
             <PhotoGallery />
+            </div>
         </div>
     );
 };

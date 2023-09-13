@@ -4,24 +4,39 @@ import React from "react";
 
 
 const Navigation = () => {
+    const path = window.location.pathname
     return (
         <div className="NavigationSection">
-            <h1>NavSection</h1>
+            <div class="header">
                 <nav>
                 <ul class='nav-links'>
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="pages/training_schedule.html">Training Schedule</a></li>
-                        <li><a href="pages/upcoming_races.html">Upcoming Races</a></li>
-                        <li><a href="pages/past_races.html">Past Races</a></li>
-                        <li><a href="pages/become_a_member.html">Become A Member</a></li>
-                        <li><a href="pages/junior_division.html">Junior Divison</a></li>
-                        <li><a href="pages/contact_us.html">Contact Us</a></li>
-                        <li><a href="pages/login.html">Login</a></li>
+                    <CustomLink href="/Home">Home</CustomLink>
+                    <CustomLink href="/CommunityBlog">CommunityBlog</CustomLink>
+                    <CustomLink href="/TrainingSchedule">TrainingSchedule</CustomLink>
+                    <CustomLink href="/UpcomingRaces">UpcomingRaces</CustomLink>
+                    <CustomLink href="/PastRaces">PastRaces</CustomLink>
+                    <CustomLink href="/BecomeAMember">BecomeAMember</CustomLink>
+                    <CustomLink href="/JuniorDivision">JuniorDivision</CustomLink>
+                    <CustomLink href="/ContactUs">ContactUs</CustomLink>
+                    <CustomLink href="/Login">Login</CustomLink>
+
+
+
                 </ul>
-    </nav>
+                </nav>
+            </div>
         </div>
         
     );
 };
+
+function CustomLink({href,children, ...props}) {
+    const path = window.location.pathname
+    return (
+        <li className={path === href ? "active": ""}>
+            <a href={href}>{children}</a>
+        </li>
+    )
+}
 
 export default Navigation;

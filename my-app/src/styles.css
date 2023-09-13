@@ -1,4 +1,4 @@
-header {
+.header {
     color: #f1ff31;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -8,7 +8,7 @@ header {
     font-family: "Noirden" , sans-serif;
 }
 
-main {
+.main {
     background-color: rgba(206, 206, 206, 0.788);
     text-align: center;
     width: 35%;
@@ -20,7 +20,7 @@ main {
     font-family: "Montserrat" , sans-serif;
 }
 
-aside {
+.aside {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     width: 35%;
@@ -30,7 +30,7 @@ aside {
     font-family: "Montserrat" , sans-serif;
 }
 
-body {
+.body {
     color: rgb(5, 5, 5);
     margin: 0;
     background-color: #686868;
@@ -57,14 +57,13 @@ nav {
     min-height: 5vh;
     background-color: #da1a1a;
     font-family: "Montserrat" , sans-serif;
+    
 }
-
-
 
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 90%;
 }
 
 .nav-links li {
@@ -78,7 +77,9 @@ nav {
     font-weight: bold;
     font-size: 16px;
     padding: 24px 24px;
+    
 }
+
 
 /*Color of link when mouse is hovering over*/
 .nav-links li a:hover:not(.active) {
