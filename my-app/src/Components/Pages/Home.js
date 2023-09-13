@@ -1,9 +1,20 @@
 import React from 'react';
+import MainText from '../MainText';
+import Heading from '../Heading'; 
+import Aside from '../Aside/Aside';
 
 const Home = () => {
     return (
         <div className="Home">
-            <h3>Home</h3>
+            <div class ="main">
+               
+               <Heading headingText="Home" />
+               <MainText mainText="This is the home page" />
+            </div>
+   
+            <div class ="aside">
+                <Aside/>
+            </div>
         </div>
     );
 };

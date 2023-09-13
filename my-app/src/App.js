@@ -1,8 +1,6 @@
 import React from 'react';
 import './styles.css';
 import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
-import Aside from "./Components/Aside/Aside";
 import Navigation from './Components/Navigation/Navigation';
 import Home from './Components/Pages/Home';
 import TrainingSchedule from './Components/Pages/TrainingSchedule';

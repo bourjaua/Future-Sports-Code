@@ -2,6 +2,7 @@ import React from 'react';
 import MainText from '../MainText';
 import Heading from '../Heading'; 
 import Main from '../Main/Main';
+import Aside from '../Aside/Aside';
 
 const BecomeAMember = () => {
     return (
@@ -14,7 +15,7 @@ const BecomeAMember = () => {
             </div>
 
             <div class ="aside">
-                
+                <Aside/>
             </div>
 
         </div>

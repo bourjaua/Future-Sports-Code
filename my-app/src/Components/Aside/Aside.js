@@ -7,7 +7,7 @@ const Aside = () => {
     return (
         <div className="AsideSection">
             <div class="aside">
-            <h2>Photo Gallery Text here</h2>
+            <h2>Photo Gallery</h2>
             <PhotoGallery />
             </div>
         </div>
