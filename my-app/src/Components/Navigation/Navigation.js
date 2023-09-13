@@ -7,24 +7,21 @@ const Navigation = () => {
     const path = window.location.pathname
     return (
         <div className="NavigationSection">
-            <div class="header">
-                <nav>
-                <ul class='nav-links'>
-                    <CustomLink href="/Home">Home</CustomLink>
-                    <CustomLink href="/CommunityBlog">CommunityBlog</CustomLink>
-                    <CustomLink href="/TrainingSchedule">TrainingSchedule</CustomLink>
-                    <CustomLink href="/UpcomingRaces">UpcomingRaces</CustomLink>
-                    <CustomLink href="/PastRaces">PastRaces</CustomLink>
-                    <CustomLink href="/BecomeAMember">BecomeAMember</CustomLink>
-                    <CustomLink href="/JuniorDivision">JuniorDivision</CustomLink>
-                    <CustomLink href="/ContactUs">ContactUs</CustomLink>
-                    <CustomLink href="/Login">Login</CustomLink>
-
-
-
-                </ul>
+            
+                <nav className="nav-links">
+                    <ul >
+                        <CustomLink href="/Home">Home</CustomLink>
+                        <CustomLink href="/CommunityBlog">Community Blog</CustomLink>
+                        <CustomLink href="/TrainingSchedule">Training Schedule</CustomLink>
+                        <CustomLink href="/UpcomingRaces">Upcoming Races</CustomLink>
+                        <CustomLink href="/PastRaces">Past Races</CustomLink>
+                        <CustomLink href="/BecomeAMember">Become A Member</CustomLink>
+                        <CustomLink href="/JuniorDivision">Junior Division</CustomLink>
+                        <CustomLink href="/ContactUs">Contact Us</CustomLink>
+                        <CustomLink href="/Login">Login</CustomLink>
+                    </ul>
                 </nav>
-            </div>
+            
         </div>
         
     );

@@ -1,11 +1,22 @@
 import React from 'react';
+import MainText from '../MainText';
+import Heading from '../Heading'; 
 import Main from '../Main/Main';
 
 const BecomeAMember = () => {
     return (
         <div className="BecomeAMember">
-            <Main headingText="Become A Member" />
-            <Main mainText="This section containes information on how to become a member" />
+
+            <div class ="main">
+               
+            <Heading headingText="Become A Member" />
+            <MainText mainText="This section containes information on how to become a member" />
+            </div>
+
+            <div class ="aside">
+                
+            </div>
+
         </div>
     );
 };

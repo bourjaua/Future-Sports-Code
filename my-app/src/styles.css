@@ -1,4 +1,11 @@
+.App {
+    text-align: center;
+  }
+
 .header {
+    box-sizing: border-box;
+    padding: 10px 4px;
+    margin: 0;
     color: #f1ff31;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -6,6 +13,7 @@
     text-align: center;
     background-color: black;
     font-family: "Noirden" , sans-serif;
+    box-sizing: border-box;
 }
 
 .main {
@@ -31,9 +39,9 @@
 }
 
 .body {
-    color: rgb(5, 5, 5);
+    color: rgb(3, 3, 3);
     margin: 0;
-    background-color: #686868;
+    background-color: #ffffff;
     /* background-image: url(../images/background_image.PNG); 
     background-size: cover; */
     
@@ -50,34 +58,33 @@
 }
 
 nav {
-    color: rgb(238, 255, 82);
+    background-color: #da1a1a;
+    color: #ffffff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 5vh;
-    background-color: #da1a1a;
     font-family: "Montserrat" , sans-serif;
-    
 }
 
 .nav-links {
+    color: inherit;
     display: flex;
-    justify-content: space-around;
-    width: 90%;
-}
-
-.nav-links li {
-    list-style: none;
-}
-
-
-.nav-links {
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
     text-decoration: none;
-    letter-spacing: 3px;
     font-weight: bold;
     font-size: 16px;
-    padding: 24px 24px;
-    
+    padding: 10px 0px;
+}
+
+.nav-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
 }
 
 
@@ -87,14 +94,67 @@ nav {
 }
 
 /*Color of link when user is in that page*/
-.nav-links li a.active {
+.nav-links li.active {
     background-color: yellow;
 }
 
-*{
-    margin: 0px;
+.carousel {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.carousel > ul {
+    margin: 0;
     padding: 10px 4px;
-    box-sizing: border-box;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.slide[data-active] {
+    opacity: 1;
+}
+
+.slide > img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: 100%;
+    object-position: center;
+    transform: translateX(10%);
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 30%;
+    transform: translateY(50%);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    color: rgb(236, 234, 234);
+    background-color: rgba(24, 23, 23, 0.534);
+}
+
+.carousel-button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.carousel-button.prev {
+    left: 10%;
+}
+
+.carousel-button.next {
+    right: 15%;
 }
 
 

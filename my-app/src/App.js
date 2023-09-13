@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
+import './styles.css';
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Aside from "./Components/Aside/Aside";
 import Navigation from './Components/Navigation/Navigation';
-import "./styles.css"
 import Home from './Components/Pages/Home';
 import TrainingSchedule from './Components/Pages/TrainingSchedule';
 import BecomeAMember from './Components/Pages/BecomeAMember';
@@ -25,6 +24,7 @@ function App() {
 
       case "/Home":
         thisPage = <Home />
+        break
 
         case "/BecomeAMember":
           thisPage = <BecomeAMember />
@@ -61,12 +61,15 @@ function App() {
 
   }
   return (
+    <div class ="body">
     <div className="App">
-      <div className="body">
+
         <Header />
         <Navigation />
         {thisPage}
-      </div>
+
+
+    </div>
     </div>
   );
 
