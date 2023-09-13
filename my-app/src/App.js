@@ -11,6 +11,7 @@ import ContactUs from './Components/Pages/ContactUs';
 import UpcomingRaces from './Components/Pages/UpcomingRaces';
 import Login from './Components/Pages/Login';
 import PastRaces from './Components/Pages/PastRaces';
+import Aside from './Components/Aside/Aside';
 
 function App() {
   console.log(window.location)
@@ -65,7 +66,7 @@ function App() {
         <Header />
         <Navigation />
         {thisPage}
-
+        <Aside />
 
     </div>
     </div>
