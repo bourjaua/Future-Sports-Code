@@ -2,7 +2,6 @@
 import React from "react";
 import Heading from "../Heading";
 import MainText from "../MainText";
-import Blog from "../Pages/Blog"
 
 
 const Main = (props) => {

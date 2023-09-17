@@ -12,7 +12,6 @@ import UpcomingRaces from './Components/Pages/UpcomingRaces';
 import Login from './Components/Pages/Login';
 import PastRaces from './Components/Pages/PastRaces';
 import Aside from './Components/Aside/Aside';
-import Main from './Components/Main/Main';
 
 function App() {
   console.log(window.location)

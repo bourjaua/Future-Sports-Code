@@ -4,8 +4,9 @@ import photo1 from './ImagesFolder/cyclingimage.PNG';
 
 const PhotoGallery = () => {
     return (
+        
         <div className="PhotoGallery">
-            <img src={photo1} alt="Image 1" height={400} width={400} />
+            <img src={photo1} alt="Pic 1" height={400} width={400} />
         </div>
     );
 };
