@@ -2,6 +2,7 @@
     text-align: center;
   }
 
+
 .header {
     box-sizing: border-box;
     padding: 10px 4px;
@@ -15,6 +16,8 @@
     font-family: "Noirden" , sans-serif;
     box-sizing: border-box;
 }
+
+
 
 .main {
     background-color: rgba(206, 206, 206, 0.788);

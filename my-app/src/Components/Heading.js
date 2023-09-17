@@ -1,7 +1,7 @@
 import React from 'react'
 
-function WelcomeHeading(props) {
-  return <h1>{props.headingText}</h1>;
+function Heading(props) {
+  return <h2>{props.headingText}</h2>;
 }
 
-export default WelcomeHeading;
+export default Heading;

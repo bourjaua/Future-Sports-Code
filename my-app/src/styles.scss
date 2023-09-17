@@ -1,0 +1,178 @@
+$variableToStoreTeal:  rgba(0, 123, 128, 0.342);
+$variableToStoreGrey: rgba(109, 107, 107, 0.521);
+
+
+h1 {
+    color: rgb(255, 255, 0);
+  }
+
+h2 {
+  color:rgb(94, 255, 0)
+}
+
+p {
+  color:#00f7ff
+}
+
+div main{
+  background-color: $variableToStoreGrey;
+ 
+    
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    float: left;
+    align-items: center;
+    transform: translateX(20%) translateY(10%);
+    border: thick;
+    font-family: "Montserrat" , sans-serif;
+  
+}
+
+aside{
+  background-color: $variableToStoreTeal;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+header {
+  h1 {
+    color: rgb(255, 255, 0);
+  }
+  box-sizing: border-box;
+  padding: 10px 4px;
+  margin: 0;
+  
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-family: "Noirden" , sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+
+aside {
+  background-color: $variableToStoreGrey;
+  text-align: center;
+  width: 35%;
+  height: 50%;
+  float: right;   
+  transform: translateX(-20%);
+  font-family: "Montserrat" , sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: $variableToStoreTeal;  
+}
+
+nav {
+  background-color: #da1a1a;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5vh;
+  font-family: "Montserrat" , sans-serif;
+}
+
+nav-links {
+  color: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+nav-links ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+
+/*Color of link when mouse is hovering over*/
+nav-links li a:hover:not(.active) {
+  background-color: rgb(255, 172, 47);
+}
+
+/*Color of link when user is in that page*/
+nav-links li.active {
+  background-color: yellow;
+}
+
+.carousel {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 10px 4px;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide[data-active] {
+  opacity: 1;
+}
+
+.slide > img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: 100%;
+  object-position: center;
+  transform: translateX(10%);
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 30%;
+  transform: translateY(50%);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  color: rgb(236, 234, 234);
+  background-color: rgba(24, 23, 23, 0.534);
+}
+
+.carousel-button:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.carousel-button.prev {
+  left: 10%;
+}
+
+.carousel-button.next {
+  right: 15%;
+}
+
+
+

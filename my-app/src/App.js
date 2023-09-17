@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import Header from "./Components/Header/Header";
 import Navigation from './Components/Navigation/Navigation';
 import Home from './Components/Pages/Home';
@@ -12,16 +12,14 @@ import UpcomingRaces from './Components/Pages/UpcomingRaces';
 import Login from './Components/Pages/Login';
 import PastRaces from './Components/Pages/PastRaces';
 import Aside from './Components/Aside/Aside';
+import Main from './Components/Main/Main';
 
 function App() {
   console.log(window.location)
   let thisPage
   switch (window.location.pathname) {
-    case "/":
-      thisPage = <App />
-      break
-
       case "/Home":
+        default:
         thisPage = <Home />
         break
 
@@ -55,8 +53,7 @@ function App() {
 
                     case "/UpcomingRaces":
                       thisPage = <UpcomingRaces />
-
-    
+                      break
 
   }
   return (

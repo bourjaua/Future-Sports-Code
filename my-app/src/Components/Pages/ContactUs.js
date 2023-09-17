@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
-import MainText from '../MainText';
-import Heading from '../Heading'; 
+import Main from '../Main/Main';
+
 
 function Button() {
     const [label, setLabel] = useState("Press to see contact information");
@@ -15,16 +15,14 @@ function Button() {
 
 const ContactUs = () => {
     return (
-        <div className="ContactUs">
-            <div class ="main">
-               
-               <Heading headingText="Contact us" />
-               <MainText mainText="This section containes contact information" />
-               </div>
+        <div className="ContactUS">            
+            <Main Heading headingText="Contact Us"
+            MainText mainText="This page contains contact information"/>
+        
    
-               <div class ="aside">
+               <aside>
                <Button>click</Button>
-               </div>
+               </aside>
             
         </div>
     );

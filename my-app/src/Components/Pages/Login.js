@@ -1,19 +1,14 @@
 import React from 'react';
-import MainText from '../MainText';
-import Heading from '../Heading'; 
+import Main from '../Main/Main';
+
 
 const Login = () => {
     return (
         <div className="Login">
-            <div class ="main">
-               
-               <Heading headingText="Become A Login" />
-               <MainText mainText="This section containes information on how to login" />
-            </div>
-   
-            <div 
-                class ="aside">  
-            </div>
+            
+            <Main Heading headingText="Login"
+            MainText mainText="This is the login page"/>
+
         </div>
     );
 };

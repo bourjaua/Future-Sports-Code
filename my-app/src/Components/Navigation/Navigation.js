@@ -4,8 +4,7 @@ import React from "react";
 
 
 const Navigation = () => {
-    const path = window.location.pathname
-    return (
+        return (
         <div className="NavigationSection">
             
                 <nav className="nav-links">

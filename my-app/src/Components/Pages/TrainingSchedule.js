@@ -1,20 +1,11 @@
 import React from 'react';
-import MainText from '../MainText';
-import Heading from '../Heading'; 
-import Aside from '../Aside/Aside';
+import Main from '../Main/Main';
 
 const TrainingSchedule = () => {
     return (
-        <div className="TrainingSchedule">
-            <div class ="main">
-               
-               <Heading headingText="Traning Schedule" />
-               <MainText mainText="This section containes information on the training schedule" />
-            </div>
-   
-            <div class ="aside">
-                <Aside/>
-            </div>
+        <div className="TrainingSchedule">            
+            <Main Heading headingText="Training Schedule"
+            MainText mainText="This page contains information on the training schedule"/>
         </div>
     );
 };
