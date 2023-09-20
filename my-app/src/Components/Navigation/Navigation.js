@@ -1,11 +1,13 @@
 // Navigation.js
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Navigation = () => {
         return (
         <div className="NavigationSection">
+            <Link to="/NavigationSection">NavigationSection</Link>
             
                 <nav className="nav-links">
                     <ul >

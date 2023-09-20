@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import React from 'react';
 import './styles.scss';
 import Header from "./Components/Header/Header";
@@ -15,7 +15,7 @@ import PastRaces from './Components/Pages/PastRaces';
 import Aside from './Components/Aside/Aside';
 
 function App() {
-  <Link to="/App">App</Link> 
+
   console.log(window.location)
   let thisPage
   switch (window.location.pathname) {

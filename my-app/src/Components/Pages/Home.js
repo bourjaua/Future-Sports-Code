@@ -6,6 +6,8 @@ const Home = () => {
     return (
         <div className="Home">
             <Link to="/Home">Home</Link>
+            <Link to="/BecomeAMember">Home</Link>
+
             <Main Heading headingText="Home"
             MainText mainText="This is the home page"/>
 

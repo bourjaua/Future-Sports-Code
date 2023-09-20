@@ -2,6 +2,7 @@
 import React from "react";
 import Heading from "../Heading";
 import MainText from "../MainText";
+import { Link } from "react-router-dom";
 
 
 const Main = (props) => {
@@ -11,6 +12,7 @@ const Main = (props) => {
   return (
     
     <div className="MainSection">
+      <Link to="/MainSection">MainSection</Link>
       <main>
           <>
           

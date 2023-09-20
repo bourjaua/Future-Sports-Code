@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./styles.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from "react-router-dom";
@@ -13,11 +12,16 @@ import Login from './Components/Pages/Login';
 import PastRaces from './Components/Pages/PastRaces';
 import TrainingSchedule from './Components/Pages/TrainingSchedule';
 import UpcomingRaces from './Components/Pages/UpcomingRaces';
+import Main from './Components/Main/Main';
+import Aside from './Components/Aside/Aside';
+import Navigation from './Components/Navigation/Navigation';
+import Header from './Components/Header/Header';
 
 ReactDOM.render(
   <React.StrictMode>
   <HashRouter>
   <Routes>
+  <Route basename={process.env.public_url}></Route>
   <Route path="/" element={<App/>} />
   <Route path="/Home" element={<Home/>}/>
   <Route path="/BecomeAMember" element={<BecomeAMember/>}/>
@@ -28,6 +32,11 @@ ReactDOM.render(
   <Route path="/PastRaces" element={<PastRaces/>}/>
   <Route path="/TrainingSchedule" element={<TrainingSchedule/>}/>
   <Route path="/UpcomingRaces" element={<UpcomingRaces/>}/>
+  <Route path="/AsideSection" element={<Aside/>}/>
+  <Route path="/MainSection" element={<Main/>}/>
+  <Route path="/NavigationSection" element={<Navigation/>}/>
+  <Route path="/Header" element={<Header/>}/>
+
 
   </Routes>
   </HashRouter>
