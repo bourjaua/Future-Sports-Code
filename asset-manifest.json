@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Future-Sports-Code/static/css/main.dc3fcaf9.css",
-    "main.js": "/Future-Sports-Code/static/js/main.8446e679.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Future-Sports-Code/static/js/787.28cb0dcd.chunk.js",
-    "static/media/cyclingimage.PNG": "/Future-Sports-Code/static/media/cyclingimage.f03d007c92c5158bdc0a.PNG",
-    "index.html": "/Future-Sports-Code/index.html",
-    "main.dc3fcaf9.css.map": "/Future-Sports-Code/static/css/main.dc3fcaf9.css.map",
-    "main.8446e679.js.map": "/Future-Sports-Code/static/js/main.8446e679.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Future-Sports-Code/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/bourjaua/Future-Sports-Code.git/static/css/main.dc3fcaf9.css",
+    "main.js": "/bourjaua/Future-Sports-Code.git/static/js/main.a3e2b4f4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/bourjaua/Future-Sports-Code.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/cyclingimage.PNG": "/bourjaua/Future-Sports-Code.git/static/media/cyclingimage.f03d007c92c5158bdc0a.PNG",
+    "index.html": "/bourjaua/Future-Sports-Code.git/index.html",
+    "main.dc3fcaf9.css.map": "/bourjaua/Future-Sports-Code.git/static/css/main.dc3fcaf9.css.map",
+    "main.a3e2b4f4.js.map": "/bourjaua/Future-Sports-Code.git/static/js/main.a3e2b4f4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/bourjaua/Future-Sports-Code.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3fcaf9.css",
-    "static/js/main.8446e679.js"
+    "static/js/main.a3e2b4f4.js"
   ]
 }
