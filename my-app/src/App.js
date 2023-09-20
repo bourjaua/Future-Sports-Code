@@ -15,6 +15,7 @@ import PastRaces from './Components/Pages/PastRaces';
 import Aside from './Components/Aside/Aside';
 
 function App() {
+  <Link to="/App">App</Link> 
   console.log(window.location)
   let thisPage
   switch (window.location.pathname) {

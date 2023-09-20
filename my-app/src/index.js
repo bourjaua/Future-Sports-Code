@@ -5,6 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/Pages/Home';
+import BecomeAMember from './Components/Pages/BecomeAMember';
+import CommunityBlog from './Components/Pages/CommunityBlog';
+import ContactUs from './Components/Pages/ContactUs';
+import JuniorDivision from './Components/Pages/JuniorDivision';
+import Login from './Components/Pages/Login';
+import PastRaces from './Components/Pages/PastRaces';
+import TrainingSchedule from './Components/Pages/TrainingSchedule';
+import UpcomingRaces from './Components/Pages/UpcomingRaces';
 
 ReactDOM.render(
   <React.StrictMode>

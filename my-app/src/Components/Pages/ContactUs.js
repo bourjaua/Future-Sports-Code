@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import Main from '../Main/Main';
-
+import { Link } from "react-router-dom";
 
 function Button() {
     const [label, setLabel] = useState("Press to see contact information");
@@ -15,7 +15,8 @@ function Button() {
 
 const ContactUs = () => {
     return (
-        <div className="ContactUS">            
+        <div className="ContactUS">         
+        <Link to="/ContactUS">ContactUS</Link>       
             <Main Heading headingText="Contact Us"
             MainText mainText="This page contains contact information"/>
         
