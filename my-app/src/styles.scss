@@ -114,11 +114,13 @@ nav-links ul {
 /*Color of link when mouse is hovering over*/
 nav-links li a:hover:not(.active) {
   background-color: rgb(255, 172, 47);
+  
 }
 
 /*Color of link when user is in that page*/
 nav-links li.active {
   background-color: yellow;
+  transition: 2s;
 }
 
 .carousel {

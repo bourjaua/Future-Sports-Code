@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from 'react';
 import './styles.scss';
 import Header from "./Components/Header/Header";
@@ -55,6 +56,7 @@ function App() {
                       break
 
   }
+
   return (
     <div class ="body">
     <div className="App">
