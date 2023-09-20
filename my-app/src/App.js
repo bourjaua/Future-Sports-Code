@@ -56,7 +56,6 @@ function App() {
 
   }
   return (
-    <div class ="body">
     <div className="App">
 
         <Header />
@@ -64,7 +63,6 @@ function App() {
         {thisPage}
         <Aside />
 
-    </div>
     </div>
   );
 

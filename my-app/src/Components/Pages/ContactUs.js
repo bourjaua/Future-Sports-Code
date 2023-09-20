@@ -7,7 +7,7 @@ function Button() {
     const [label, setLabel] = useState("Press to see contact information");
      return (
        <div>
-         <h1>{label}!</h1>
+         <h2>{label}!</h2>
          <button type="button" onClick={() => setLabel("XXXX XXXX")}>Click Me!</button>
        </div>
      );

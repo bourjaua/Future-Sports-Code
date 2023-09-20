@@ -4,6 +4,18 @@ $variableToStoreGrey: rgba(109, 107, 107, 0.521);
 
 h1 {
     color: rgb(255, 255, 0);
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px 4px;
+    margin: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: "Noirden" , sans-serif;
+    box-sizing: border-box;
   }
 
 h2 {
@@ -45,26 +57,6 @@ aside{
 }
 
 
-header {
-  h1 {
-    color: rgb(255, 255, 0);
-  }
-  box-sizing: border-box;
-  padding: 10px 4px;
-  margin: 0;
-  
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  font-family: "Noirden" , sans-serif;
-  box-sizing: border-box;
-}
-
-
-
-
 aside {
   background-color: $variableToStoreGrey;
   text-align: center;
@@ -78,6 +70,7 @@ aside {
 body {
   margin: 0;
   background-color: $variableToStoreTeal;  
+  z-index: 0;
 }
 
 nav {
@@ -90,7 +83,7 @@ nav {
   font-family: "Montserrat" , sans-serif;
 }
 
-nav-links {
+.nav-links {
   color: inherit;
   display: flex;
   justify-content: space-evenly;
@@ -102,7 +95,7 @@ nav-links {
   padding: 10px 0px;
 }
 
-nav-links ul {
+.nav-links ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -112,12 +105,12 @@ nav-links ul {
 
 
 /*Color of link when mouse is hovering over*/
-nav-links li a:hover:not(.active) {
+.nav-links li a:hover:not(.active) {
   background-color: rgb(255, 172, 47);
 }
 
 /*Color of link when user is in that page*/
-nav-links li.active {
+.nav-links li.active {
   background-color: yellow;
 }
 
@@ -179,6 +172,3 @@ nav-links li.active {
 .carousel-button.next {
   right: 15%;
 }
-
-
-
